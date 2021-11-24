@@ -1,4 +1,4 @@
-# Simple React JS Project
+# 2d plotting using React.js
 
 ## What is the use of this Repo
 
