@@ -1,0 +1,176 @@
+ 
+#well_holder {
+  margin-top: 90px;
+}
+.file-import {
+  font-size: 18px;
+  width: 143px;
+  margin-top: 22px;   
+  height: 36px;
+}
+.setting-btn {
+  background-color: white;
+  border: 1px; 
+  margin-top: 10px;
+  display: block;
+  margin-left: 50px;
+}
+.background-btn {
+  background-color: white;
+  border: 1px;
+}
+.setting-label {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 110px;
+}
+.panel {
+  display: inline-block;
+}
+  
+.background-label {
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.well-check-div{  
+  margin-top: 20px;
+  border: 1px solid black;
+  padding: 20px;
+  overflow-y: scroll;
+  max-height: 200px;
+}
+.log-check-div {
+  border: 1px solid black;
+  margin-top: 20px;
+  padding: 20px;
+  overflow-y: scroll;
+  max-height: 300px;
+  height: auto;
+}
+.setting-div {
+  border: 1px solid black;
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+}
+ 
+.log-check div {
+  /*display: flex;*/
+  margin-left: 25px;
+  margin-bottom: 5px;
+}
+.log-check div input {
+   float: right;
+}
+.well-check div input{
+  float: right;
+  margin-right: -3px;
+}
+.well-check div label{ 
+  margin-left: 25px;
+}
+
+input.file {
+  opacity: 0;
+}
+.file-input-label {
+  background-color: #3fc028;
+  color: white;
+  padding: 8px;
+  font-family: sans-serif;
+  border-radius: 5px;
+  cursor: pointer;  
+  font-size: 16px;
+  width: 135px;
+  text-align: center;
+}
+.file-input input {
+  display: none;
+}
+div.file-input {
+  position: absolute;
+  left: 15px;
+  top: 18px;
+}
+.well-name-label {
+  font-size: 15px;
+  font-weight: 600;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+.component_inner{
+  max-height: 10000px !important;
+  margin-top: -35px;
+}
+
+svg.components g:first-child{
+  opacity: 0;
+}
+svg.header g:first-child  + text{
+  display: none !important;
+}
+ 
+div.font-color {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  display: inline-flex;
+  margin-left: 35px;
+}
+label.font-color {
+  font-weight: 100 !important; 
+  margin-right: 28px;
+  margin-top: 7px;
+}
+label.background-color {
+  font-weight: 100 !important;
+  padding-right: 20px;
+  padding-top: 8px;
+}
+div.background-color {
+  display: inline-flex;  
+}
+div.background-color > div + div {
+   z-index: 1000;
+}
+div.check-control {
+  display: inline-flex;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+div.check-control label {
+  padding: 0 7px;
+}
+div.font-color > div + div {
+  z-index: 1000;
+}
+label.well-name { 
+  margin-bottom: 25px;
+}
+div.row {
+  margin-right: -15px;
+  margin-left: -15px;
+  display: flex;
+}
+div#well_holder {
+  display: flex; 
+  min-width: max-content;
+  height: 100%;
+}
+div.holder {
+  text-align: center;
+  padding-right: 40px;
+  margin-right: 60px;
+  margin-left: 60px;
+  overflow-y: scroll;
+  max-height: 600px;
+}
+
+/*#well_holder .holder #well_holder0curvebox_holder0 ~ div {
+  margin-left: -25px;
+}
+*/
