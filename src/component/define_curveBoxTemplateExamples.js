@@ -6,8 +6,8 @@ export default function curveBoxTemplateExamples(string_of_either__help_example_
                 "show_well_name": "yes", /// not built yet
                 "show_depth_type": "yes", /// not built yet
                 "show_curve_units": "no", /// not built yet
-                "curve_box_depth_min": -100000, /// not built yet
-                "curve_box_depth_max": 1000000, /// not built yet
+                "curve_box_depth_min": -1000, /// not built yet
+                "curve_box_depth_max": 1000, /// not built yet
                 "take_out_null_or_visualize": "no", /// not built yet
                 "show_title": "yes",
                 "width": 100,
