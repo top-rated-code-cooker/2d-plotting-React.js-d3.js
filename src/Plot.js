@@ -3,9 +3,7 @@ import wellio from 'wellio';
 import wellioviz from 'wellioviz';  
 import curveBoxTemplateExamples from './component/define_curveBoxTemplateExamples'; 
 import { SketchPicker } from 'react-color'
-import reactCSS from 'reactcss'  
-
-var holders = [];
+import reactCSS from 'reactcss';
 
 export default class Plot extends React.Component{
   constructor(props) {
