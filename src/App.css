@@ -55,8 +55,7 @@
   text-align: center;
 }
  
-.log-check div {
-  /*display: flex;*/
+.log-check div {  
   margin-left: 25px;
   margin-bottom: 5px;
 }
