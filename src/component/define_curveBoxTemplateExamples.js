@@ -23,8 +23,7 @@ export default function curveBoxTemplateExamples(string_of_either__help_example_
                 "gridlines": "yes",
                 "gridlines_color": "#D3D3D3",
                 "gridlines_stroke_width": 0.10,
-                "grouped_or_independent_x_scales": "independent",
-                //// variables for how to draw mouseover of hover box
+                "grouped_or_independent_x_scales": "independent",                
                 "mouseover_yes_or_no": "yes", //// "yes" or "no"
                 "mouseover_depth_or_depth_and_curve": "depth_and_curve", /// options= "depth_and_curve", "depth", or "curve"
                 "mouseover_curvename": "default", //// default is first curve
@@ -45,7 +44,7 @@ export default function curveBoxTemplateExamples(string_of_either__help_example_
                                 "fill": "yes",
                                 "fill_direction": "left",
                                 "cutoffs": [0.21, 2.23, 2.24],
-                                "fill_colors": ["gray", "beige", "white"],
+                                "fill_colors": ["black", "red", "white"],
                                 "curve2": ""
                             }
                         ],
@@ -77,9 +76,7 @@ export default function curveBoxTemplateExamples(string_of_either__help_example_
                                     "depth": 1600,
                                     "RHOB": 2.2223
                                 }, {"depth": 1600.1, "RHOB": 2.2047}, {"depth": 1600.2, "RHOB": 2.198}],
-                        "depth_curve_name": "DEPT",/// not built yet
-                        //////
-                        "data_id": ["placeholder_data_id",], /// not built yet
+                        "depth_curve_name": "DEPT",/// not built yet                        
                         "well_names": [""], /// not built yet
                         "scale_linear_log_or_yours": ["linear"],
                         "line_color": [""], /// not built yet
@@ -113,9 +110,9 @@ export default function curveBoxTemplateExamples(string_of_either__help_example_
                         "stroke_linecap": "butt",
                         "fill": "red",
                         "opacity": 0.5,
-                        "label": "", // not built into plotting template yet
-                        "label_orientation": "horizontal", // not built into plotting template yet
-                        "lable_position": "right" // not built into plotting template yet
+                        "label": "", 
+                        "label_orientation": "horizontal", 
+                        "lable_position": "right" 
                     }
                 ]
             }]
