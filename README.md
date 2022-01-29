@@ -1,4 +1,4 @@
-# 2d plotting using React.js
+# 2d plotting with React.js and d3.js
 
 ## What is the use of this Repo
 
@@ -8,13 +8,6 @@ This Project is a Simple ReactJS Project which demonstrates the following
 3. Communicating between parent and child component
 4. Using Bootstrap along with React
 5. Using Basic Routing in React
-
-The project Template can be used to build bigger projects
-
-## Live Application URL
-
-### https://github.com/assasin124/2d-plotting-React.js.git
-This URL has the application deployed in
 
 ## Prerequisites
 
@@ -27,11 +20,6 @@ Install create-react-app npm package globally. This will help to easily run the 
 ```bash
 npm install -g create-react-app
 ```
-## Live Application URL
-
-The Application is deployed in https://github.com/assasin124/2d-plotting-React.js.git
-
-Click on the link to see the application
 
 ## Cloning and Running the Application in local
 
